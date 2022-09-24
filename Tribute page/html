@@ -1,0 +1,98 @@
+<!-- User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
+<main id="main">
+<div id="main">
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+
+<!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
+
+<div id="title">
+  <strong>
+  <h3>
+    Achilles
+  </h3>
+  </strong>
+</div>
+
+
+
+
+<!-- User Story #3: I should see either a figure or a div element with a corresponding id="img-div". -->
+
+<figure id="img-div">
+
+
+
+
+
+<!-- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image". -->
+
+<img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Education_of_Achilles_1862_Delacroix.jpg/1200px-The_Education_of_Achilles_1862_Delacroix.jpg">
+
+
+
+
+
+
+<!-- User Story #5: Within the img-div element, I should see an element with a corresponding id=img-caption that contains textual content describing the image shown in img-div. -->
+
+
+<figcaption id="img-caption">
+  The Education of Achilles 
+
+  </figcaption>
+    </figure>
+
+    </div>
+
+
+
+<!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
+
+ <div id="info">
+    <div id="tribute-info">
+      <p>
+  In Greek mythology, Achilles (/əˈkɪliːz/ ə-KIL-eez) or Achilleus (Greek: Ἀχιλλεύς) was a hero of the Trojan War, the greatest of all the Greek warriors, and the central character of Homer's Iliad. He was the son of the Nereid Thetis and Peleus, king of Phthia.
+
+Achilles' most notable feat during the Trojan War was the slaying of the Trojan prince Hector outside the gates of Troy. Although the death of Achilles is not presented in the Iliad, other sources concur that he was killed near the end of the Trojan War by Paris, who shot him with an arrow.that Achilles was invulnerable in all of his body except for one heel, because when his mother Thetis dipped him in the river Styx as an infant, she held him by one of his heels. Alluding to these legends, the term "Achilles' heel" has come to mean a point of weakness
+      </p>
+    </div>
+
+
+
+
+
+<!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank"). -->
+
+<a href="https://https://en.wikipedia.org/wiki/Achilles" id="tribute-link" target="_blank">
+      <div class="outer-circle">
+        <div class="inner-circle">
+          <p>
+            LEARN MORE
+          </p>
+        </div>
+      </div>
+    </a>
+    
+    
+    
+  </div>
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<!-- User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. -->
+
+
+
+
+
+<!-- User Story #9: The img element should be centered within its parent element. -->
