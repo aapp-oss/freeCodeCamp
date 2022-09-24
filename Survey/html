@@ -1,0 +1,118 @@
+<!doctype html>
+<html> <!-- got to tie all this in -->
+<div class="container">
+  
+  <head class="header"><!--top part of my survy-->
+  
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  <!--got to make sure this works-->
+
+    <h1 id="title" class="text-center">what types of rocks you like</h1>
+   
+    <p id="description" class="description text-center">you say you climb rocks tell us why?</p>
+   
+    </head>
+
+    <form id="survey-form">
+
+      <div class="form-group"><!--the person first and last name starts here-->
+        
+        <label id="name-label" for="name">First & Last name:</label>
+
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/><!-- somthing wrong here go over when the main stuff is done-->
+</div>
+
+  <div class="form-group"><!--email goes here-->
+    
+    <label id="email-label" for="email">Email:</label>
+
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+    </div>
+
+    <div class="form-group"><!--Age here-->
+
+      <label id="number-label" for="number">Age<span class="clue">(optional):</span></label>
+
+      <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="age"/></div>
+
+      <div class ="form-group">
+        <p>which option best describes your current role</p>    <!--what they do-->
+
+        <select id="dropdown" name="role" class="form-control" requried>
+      <option disabled selected value>Select current role</option>
+      <option value="student">Student</option>
+      <option value="job">Full Time Job</option>
+      <option value="climber">Weekend Climber</options>
+      <option value="preferNo">Prefer not to say</option>
+      <option value="other">Other</option>
+      </select>
+      </div>
+
+<div class="form-group">
+
+  <p>would you recommend climbing to a friend</p>
+   <!--checking if they have friends-->
+        <label><input name="user-recommend" value="definitley"  type="radio" class="input-radio" checked/>Definitley</label>
+
+        <label><input name="user-recommend" value="maybe" type="radio" class="input-radio"/>Maybe</label>
+
+        <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio"/>Not sure</label>
+        </div>
+
+    <div class="form-group">
+
+      <p>What is your favorite feature of Rock climbing</p>     <!--checking out what they like-->
+
+      <select id="most-like" name="mostlike" class="form-control" required>
+      <option disabled selected value>Select an option</option>
+      <option value="challenges">challenges</option>
+      <option value="projects"> Projects</option>
+      <option value="community">Community</option>
+      <option value="crimps">Crimps</option>
+      </select>
+</div>
+
+
+<div class="form-group">
+
+  <p>what would you like to see improved? <!--improvments-->
+    <span class="clue">(check all that apply)</span>
+    </p>
+
+    <label>
+      <input name="prefer" value="indoor-climbing" type="checkbox" class="input-checkbox"/>In-door climbing</label>
+
+<label><input name="prefer" value="out-door-climbing" type="checkbox" class="input-checkbox"/>out-door climbing</label>
+
+<label><input name="prefer" value="projecting" type="checkbox" class="input-checkbox"/>Projecting</label>
+
+<label><input name="prefer" value="crimps" type="checkbox" class="input-checkbox"/>Crimps</label>
+
+<label><input name="prefer" value="mental-game" type="checkbox" class="input-checkbox"/>Mental game</label>
+
+<label><input name="prefer" value="vibez" type="checkbox" class="input-checkbox"/>Vibez</label>
+
+<label><input name="prefer" value="training" type="checkbox" class="input-checkbox"/>training</label>
+
+<label><input name="prefer" value="body-tension" type="checkbox" class="input-checkbox"/>Body tension</label>  
+
+<label><input name="prefer" value="you" type="checkbox" class="input-checkbox"/>You</label>
+
+<label><input name="prefer" value="one arm pull ups" type="checkbox" class="input-checkbox"/>One arm pull ups</label>
+
+<label><input name="prefer" value="one-mind-one-body-go-hard" type="checkbox" class="input-checkbox"/>One mind one body go hard</label>
+
+</div>
+
+  <div class="form-group">
+    
+    <p>Any comments or suggestion?</p>
+
+  <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+  </div>
+
+  <div class="from-group">
+    <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+    </form>
+    </div>
